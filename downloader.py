@@ -10,7 +10,7 @@ loader = instaloader.Instaloader(
   download_comments=False, 
   save_metadata=False, 
   compress_json=False,
-  filename_pattern='{profile}_{owner_id}'
+  filename_pattern='{profile}_{mediaid}'
   )
 
 username = input('Usuário: ')
